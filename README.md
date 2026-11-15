@@ -35,13 +35,15 @@
         <em>Growing together, building the future</em>
       </td>
       <td align="center" width="50%">
-        <img src="https://via.placeholder.com/80x80/00A651/FFFFFF?text=🏙️" alt="Balen City" width="80"><br>
+        <img src="https://raw.githubusercontent.com/kushalnepal/Website-builder/main/Balen.webp" alt="Balen Shah - Mayor of Kathmandu" width="120" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"><br>
         <strong>Balen City</strong><br>
         <em>Innovation meets tradition</em>
       </td>
     </tr>
   </table>
 </div>
+
+> **Note**: Add your `Balen.webp` photo to the repository root for the image above to display. The URL uses GitHub's raw file serving.
 
 - **🇳🇵 Nepal Flag** - Represents our pride and commitment to the Nepali tech ecosystem
 - **🏙️ Balen City** - Inspired by the transformative leadership of Balen Shah, Mayor of Kathmandu, symbolizing innovation, transparency, and digital progress
