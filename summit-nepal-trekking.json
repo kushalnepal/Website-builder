@@ -1,0 +1,187 @@
+{
+  "website_name": "Summit Nepal Trekking",
+  "business_type": "Adventure Travel & Trekking",
+  "tagline": "Your Gateway to Himalayan Adventures",
+  "target_audience": "Adventure seekers, trekking enthusiasts, and tourists looking to explore Nepal's Himalayas",
+  "language": "English",
+  "theme": {
+    "primary_color": "#059669",
+    "secondary_color": "#1F2937",
+    "accent_color": "#F97316",
+    "font_family": "Inter",
+    "tone": "adventurous"
+  },
+  "seo": {
+    "title": "Summit Nepal Trekking - Best Trekking Agency in Nepal",
+    "description": "Experience the adventure of a lifetime with Summit Nepal Trekking. Guided treks to Everest Base Camp, Annapurna, and more. Professional guides, safe journeys, unforgettable memories.",
+    "keywords": ["trekking Nepal", "Everest Base Camp trek", "Annapurna circuit", "Nepal adventure", "himalayan trekking", "trekking agency Kathmandu"]
+  },
+  "pages": [
+    {
+      "name": "Home",
+      "slug": "/",
+      "sections": [
+        {
+          "type": "navbar",
+          "logo_text": "Summit Nepal",
+          "menu": ["Home", "Treks", "About", "Gallery", "Contact"],
+          "cta": {
+            "text": "Book Now",
+            "link": "/contact"
+          },
+          "style": {
+            "layout": "horizontal",
+            "sticky": true
+          }
+        },
+        {
+          "type": "hero",
+          "title": "Discover the Magic of the Himalayas",
+          "subtitle": "Adventure Awaits at Every Step",
+          "description": "Join us for unforgettable trekking experiences in Nepal. From the majestic Everest to the beautiful Annapurna, we make your Himalayan dreams come true.",
+          "cta": {
+            "primary": {
+              "text": "View All Treks",
+              "action": "/treks"
+            },
+            "secondary": {
+              "text": "Custom Trek Inquiry",
+              "action": "/contact"
+            }
+          },
+          "background_image": "https://images.unsplash.com/photo-1486911278844-a81c5267e227?w=1920",
+          "style": {
+            "layout": "centered",
+            "height": "large"
+          }
+        },
+        {
+          "type": "about",
+          "title": "Who We Are",
+          "description": "Summit Nepal Trekking has been operating since 2012 with a mission to provide safe, enjoyable, and memorable trekking experiences in the Himalayas. Our team consists of certified mountain guides, experienced porters, and dedicated support staff who ensure your journey is safe and comfortable.",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+          "style": {
+            "layout": "split"
+          }
+        },
+        {
+          "type": "services",
+          "title": "Our Treks",
+          "items": [
+            {
+              "name": "Everest Base Camp Trek",
+              "description": "Journey to the base of the world's highest peak. 14-day adventure through Sherpa villages and stunning mountain views",
+              "icon": "mountain"
+            },
+            {
+              "name": "Annapurna Circuit Trek",
+              "description": "Experience the classic trek around Annapurna massif. 21 days of diverse landscapes and cultures",
+              "icon": "map"
+            },
+            {
+              "name": "Annapurna Base Camp",
+              "description": "Trek to the heart of the Annapurna sanctuary. 12 days of breathtaking mountain scenery",
+              "icon": "compass"
+            },
+            {
+              "name": "Langtang Valley Trek",
+              "description": "Explore the beautiful Langtang region. 10 days close to Tibet with stunning views",
+              "icon": "tree"
+            },
+            {
+              "name": "Manaslu Circuit Trek",
+              "description": "Trek around the 8th highest mountain in the world. Remote and less crowded",
+              "icon": "globe"
+            },
+            {
+              "name": "Custom Treks",
+              "description": "Design your own adventure. We tailor treks to your preferences and fitness level",
+              "icon": "star"
+            }
+          ],
+          "style": {
+            "layout": "grid",
+            "columns": 3
+          }
+        },
+        {
+          "type": "features",
+          "title": "Why Trek With Us",
+          "items": [
+            {
+              "title": "Certified Guides",
+              "description": "Our guides are trained and certified by the Nepal Mountaineering Association"
+            },
+            {
+              "title": "Safety First",
+              "description": "Comprehensive safety measures including emergency evacuation support"
+            },
+            {
+              "title": "Small Groups",
+              "description": "Maximum 12 trekkers per group for personalized attention"
+            },
+            {
+              "title": "Local Expertise",
+              "description": "Deep knowledge of routes, culture, and mountain conditions"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "title": "Adventure Gallery",
+          "images": [
+            "https://images.unsplash.com/photo-1486911278844-a81c5267e227?w=400",
+            "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+            "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400",
+            "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400",
+            "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=400",
+            "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=400"
+          ]
+        },
+        {
+          "type": "testimonials",
+          "title": "What Our Trekkers Say",
+          "items": [
+            {
+              "name": "David Thompson",
+              "feedback": "An incredible journey to Everest Base Camp. The guides were professional and the experience was unforgettable!",
+              "rating": 5
+            },
+            {
+              "name": "Lisa Martinez",
+              "feedback": "Summit Nepal made my dream of seeing the Himalayas come true. Everything was perfectly organized.",
+              "rating": 5
+            },
+            {
+              "name": "James Anderson",
+              "feedback": "The Annapurna Circuit was challenging but rewarding. Great support team and beautiful lodges.",
+              "rating": 5
+            },
+            {
+              "name": "Maria Schmidt",
+              "feedback": "Best decision to book with this company. Safe, well-organized, and amazing mountain views!",
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "type": "contact",
+          "title": "Start Your Adventure",
+          "email": "info@sumnitnepaltrekking.com.np",
+          "phone": "+977-1-4561234",
+          "address": "Thamel, Kathmandu, Nepal",
+          "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.347979856327!2d85.30792531553184!3d27.71761048279376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1962e1e93c0f%3A0x3f7f3c8e2d1e7f!2sThamel%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1645432109876!5m2!1sen!2snp",
+          "style": {
+            "layout": "split"
+          }
+        },
+        {
+          "type": "footer",
+          "text": "© 2024 Summit Nepal Trekking. All rights reserved.",
+          "links": ["Privacy Policy", "Terms of Service", "Trip FAQ", "Contact"],
+          "socials": ["facebook", "instagram", "youtube"]
+        }
+      ]
+    }
+  ]
+}

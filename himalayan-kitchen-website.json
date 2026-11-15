@@ -1,0 +1,187 @@
+{
+  "website_name": "Himalayan Kitchen",
+  "business_type": "Restaurant",
+  "tagline": "Authentic Nepali Cuisine in the Heart of Kathmandu",
+  "target_audience": "Local residents, tourists, and food enthusiasts seeking authentic Nepali dining experience",
+  "language": "English",
+  "theme": {
+    "primary_color": "#C41E3A",
+    "secondary_color": "#1A1A2E",
+    "accent_color": "#FFD700",
+    "font_family": "Inter",
+    "tone": "modern"
+  },
+  "seo": {
+    "title": "Himalayan Kitchen - Best Nepali Restaurant in Kathmandu",
+    "description": "Experience authentic Nepali cuisine at Himalayan Kitchen. Traditional recipes, fresh ingredients, and warm hospitality in the heart of Kathmandu.",
+    "keywords": ["Nepali restaurant Kathmandu", "authentic Nepali food", "traditional Nepali cuisine", "best restaurant in Nepal", "Kathmandu dining"]
+  },
+  "pages": [
+    {
+      "name": "Home",
+      "slug": "/",
+      "sections": [
+        {
+          "type": "navbar",
+          "logo_text": "Himalayan Kitchen",
+          "menu": ["Home", "Menu", "About", "Gallery", "Contact"],
+          "cta": {
+            "text": "Order Now",
+            "link": "/contact"
+          },
+          "style": {
+            "layout": "horizontal",
+            "sticky": true
+          }
+        },
+        {
+          "type": "hero",
+          "title": "Taste the Authentic Flavors of Nepal",
+          "subtitle": "Traditional Recipes, Modern Experience",
+          "description": "Discover the rich flavors of authentic Nepali cuisine prepared with locally sourced ingredients and generations-old recipes. Join us for an unforgettable dining experience.",
+          "cta": {
+            "primary": {
+              "text": "View Menu",
+              "action": "/menu"
+            },
+            "secondary": {
+              "text": "Book a Table",
+              "action": "/contact"
+            }
+          },
+          "background_image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=1920",
+          "style": {
+            "layout": "centered",
+            "height": "large"
+          }
+        },
+        {
+          "type": "about",
+          "title": "Our Story",
+          "description": "Founded in 2015, Himalayan Kitchen has been serving authentic Nepali delicacies to locals and tourists alike. Our chefs bring decades of experience from the kitchens of traditional Nepali households, ensuring every dish tells a story of our rich culinary heritage.",
+          "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800",
+          "style": {
+            "layout": "split"
+          }
+        },
+        {
+          "type": "services",
+          "title": "What We Offer",
+          "items": [
+            {
+              "name": "Traditional Nepali Thali",
+              "description": "Authentic Nepali meal served on a traditional brass plate with rice, dal, vegetables, pickle, and papad",
+              "icon": "utensils"
+            },
+            {
+              "name": "Momo Making Class",
+              "description": "Learn the art of making perfect Nepali momos with our expert chefs. Available for groups and families",
+              "icon": "users"
+            },
+            {
+              "name": "Catering Services",
+              "description": "Bring the authentic taste of Nepal to your events. We cater weddings, parties, and corporate events",
+              "icon": "truck"
+            },
+            {
+              "name": "Private Dining",
+              "description": "Experience intimate dining in our traditional seating area perfect for family gatherings",
+              "icon": "home"
+            },
+            {
+              "name": "Outdoor BBQ",
+              "description": "Enjoy grilled meats and vegetables in our beautiful outdoor garden setting",
+              "icon": "fire"
+            },
+            {
+              "name": "Takeaway & Delivery",
+              "description": "Enjoy our delicious food at home. Fast delivery across Kathmandu valley",
+              "icon": "shopping-bag"
+            }
+          ],
+          "style": {
+            "layout": "grid",
+            "columns": 3
+          }
+        },
+        {
+          "type": "features",
+          "title": "Why Choose Us",
+          "items": [
+            {
+              "title": "Fresh Local Ingredients",
+              "description": "We source our vegetables and spices directly from local farmers in Nepal"
+            },
+            {
+              "title": "Authentic Recipes",
+              "description": "Traditional recipes passed down through generations, prepared with love"
+            },
+            {
+              "title": "Warm Hospitality",
+              "description": "Experience the famous Nepali hospitality with every visit"
+            },
+            {
+              "title": "Affordable Prices",
+              "description": "Quality Nepali cuisine at reasonable prices for everyone"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "title": "Our Dishes",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400",
+            "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400",
+            "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400",
+            "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400",
+            "https://images.unsplash.com/photo-1595854341625-f71831d39e3e?w=400",
+            "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400"
+          ]
+        },
+        {
+          "type": "testimonials",
+          "title": "What Our Guests Say",
+          "items": [
+            {
+              "name": "Rajesh Kumar",
+              "feedback": "The best Dal Bhat I've had outside of my grandmother's kitchen. Truly authentic taste!",
+              "rating": 5
+            },
+            {
+              "name": "Sarah Johnson",
+              "feedback": "Amazing experience! The momos were incredible and the staff was so welcoming.",
+              "rating": 5
+            },
+            {
+              "name": "Michael Chen",
+              "feedback": "A must-visit for anyone in Kathmandu. The flavors are authentic and portions are generous.",
+              "rating": 5
+            },
+            {
+              "name": "Priya Sharma",
+              "feedback": "We attended the momo-making class and it was the highlight of our trip to Nepal!",
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "type": "contact",
+          "title": "Visit Us",
+          "email": "info@himalayankitchen.com.np",
+          "phone": "+977-1-4567890",
+          "address": "Thamel, Kathmandu, Nepal",
+          "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.347979856327!2d85.30792531553184!3d27.71761048279376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1962e1e93c0f%3A0x3f7f3c8e2d1e7f!2sThamel%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1645432109876!5m2!1sen!2snp",
+          "style": {
+            "layout": "split"
+          }
+        },
+        {
+          "type": "footer",
+          "text": "© 2024 Himalayan Kitchen. All rights reserved.",
+          "links": ["Privacy Policy", "Terms of Service", "Menu", "Contact"],
+          "socials": ["facebook", "instagram", "twitter"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "website_name": "Business Pro Services",
+  "business_type": "Professional Services",
+  "tagline": "Your Trusted Partner for Business Excellence",
+  "target_audience": "Small businesses, entrepreneurs, and corporate clients seeking professional services",
+  "language": "English",
+  "theme": {
+    "primary_color": "#2563EB",
+    "secondary_color": "#1E293B",
+    "accent_color": "#F59E0B",
+    "font_family": "Inter",
+    "tone": "professional"
+  },
+  "seo": {
+    "title": "Business Pro Services - Professional Solutions for Your Business",
+    "description": "Expert professional services to help your business grow. Quality solutions, reliable service, and dedicated support.",
+    "keywords": ["professional services", "business consulting", "service provider", "business solutions", "consulting services"]
+  },
+  "pages": [
+    {
+      "name": "Home",
+      "slug": "/",
+      "sections": [
+        {
+          "type": "navbar",
+          "logo_text": "Business Pro",
+          "menu": ["Home", "Services", "About", "Contact"],
+          "cta": {
+            "text": "Get Started",
+            "link": "/contact"
+          },
+          "style": {
+            "layout": "horizontal",
+            "sticky": true
+          }
+        },
+        {
+          "type": "hero",
+          "title": "Professional Services for Your Business",
+          "subtitle": "Excellence in Every Solution",
+          "description": "We provide comprehensive professional services tailored to meet your business needs. Our expert team is dedicated to helping you achieve your goals.",
+          "cta": {
+            "primary": {
+              "text": "Our Services",
+              "action": "/services"
+            },
+            "secondary": {
+              "text": "Contact Us",
+              "action": "/contact"
+            }
+          },
+          "background_image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920",
+          "style": {
+            "layout": "centered",
+            "height": "large"
+          }
+        },
+        {
+          "type": "about",
+          "title": "About Us",
+          "description": "With over 10 years of experience in the industry, we have built a reputation for excellence and reliability. Our team of experts is committed to delivering the best solutions for your business needs.",
+          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800",
+          "style": {
+            "layout": "split"
+          }
+        },
+        {
+          "type": "services",
+          "title": "Our Services",
+          "items": [
+            {
+              "name": "Business Consulting",
+              "description": "Expert advice and strategies to optimize your business operations and growth",
+              "icon": "briefcase"
+            },
+            {
+              "name": "Digital Solutions",
+              "description": "Modern digital tools and platforms to enhance your business efficiency",
+              "icon": "laptop"
+            },
+            {
+              "name": "Marketing Services",
+              "description": "Effective marketing strategies to grow your customer base and brand awareness",
+              "icon": "chart-line"
+            },
+            {
+              "name": "Financial Planning",
+              "description": "Professional financial guidance and planning for your business success",
+              "icon": "wallet"
+            },
+            {
+              "name": "Training & Development",
+              "description": "Comprehensive training programs to develop your team's skills",
+              "icon": "graduation-cap"
+            },
+            {
+              "name": "24/7 Support",
+              "description": "Round-the-clock support to ensure your business runs smoothly",
+              "icon": "headset"
+            }
+          ],
+          "style": {
+            "layout": "grid",
+            "columns": 3
+          }
+        },
+        {
+          "type": "features",
+          "title": "Why Choose Us",
+          "items": [
+            {
+              "title": "Experienced Team",
+              "description": "Our team consists of industry experts with years of experience"
+            },
+            {
+              "title": "Customized Solutions",
+              "description": "We tailor our services to meet your specific business needs"
+            },
+            {
+              "title": "Competitive Pricing",
+              "description": "Quality services at affordable prices"
+            },
+            {
+              "title": "Customer Satisfaction",
+              "description": "Your satisfaction is our top priority"
+            }
+          ]
+        },
+        {
+          "type": "testimonials",
+          "title": "What Our Clients Say",
+          "items": [
+            {
+              "name": "John Smith",
+              "feedback": "Outstanding service! They helped transform our business operations completely.",
+              "rating": 5
+            },
+            {
+              "name": "Emily Davis",
+              "feedback": "Professional, efficient, and delivered excellent results. Highly recommended!",
+              "rating": 5
+            },
+            {
+              "name": "Robert Wilson",
+              "feedback": "The best investment we made for our business. Great team and great results.",
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "type": "contact",
+          "title": "Get In Touch",
+          "email": "info@businesspro.com",
+          "phone": "+977-1-2345678",
+          "address": "Business District, Kathmandu, Nepal",
+          "map_embed": "",
+          "style": {
+            "layout": "split"
+          }
+        },
+        {
+          "type": "footer",
+          "text": "© 2024 Business Pro Services. All rights reserved.",
+          "links": ["Privacy Policy", "Terms of Service", "Contact"],
+          "socials": ["facebook", "linkedin", "twitter"]
+        }
+      ]
+    }
+  ]
+}

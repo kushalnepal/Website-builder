@@ -1,0 +1,64 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "mongodb"
+    url      = env("DATABASE_URL")
+}
+
+model User {
+    id           String        @id @default(auto()) @map("_id") @db.ObjectId
+    email        String        @unique
+    password     String
+    name         String
+    avatar       String?
+    subscription Subscription?
+    createdAt    DateTime      @default(now())
+    updatedAt    DateTime      @updatedAt
+    websites     Website[]
+
+    @@map("users")
+}
+
+model Subscription {
+    id               String    @id @default(auto()) @map("_id") @db.ObjectId
+    status           String    @default("free")
+    stripeCustomerId String?
+    plan             String?
+    expiresAt        DateTime?
+    userId           String    @unique @db.ObjectId
+    user             User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+    @@map("subscriptions")
+}
+
+model Website {
+    id           String   @id @default(auto()) @map("_id") @db.ObjectId
+    userId       String   @db.ObjectId
+    name         String
+    slug         String   @unique
+    websiteJson  Json
+    theme        Json?
+    status       String   @default("draft")
+    publishedUrl String?
+    analytics    Json?
+    createdAt    DateTime @default(now())
+    updatedAt    DateTime @updatedAt
+    user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+    @@map("websites")
+}
+
+model Template {
+    id           String   @id @default(auto()) @map("_id") @db.ObjectId
+    name         String   @unique
+    category     String
+    previewImage String
+    websiteJson  Json
+    isPremium    Boolean  @default(false)
+    usageCount   Int      @default(0)
+    createdAt    DateTime @default(now())
+
+    @@map("templates")
+}
