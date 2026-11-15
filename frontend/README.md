@@ -35,7 +35,7 @@
         <em>Growing together, building the future</em>
       </td>
       <td align="center" width="50%">
-        <img src="https://via.placeholder.com/80x80/00A651/FFFFFF?text=🏙️" alt="Balen City" width="80"><br>
+        <img src="https://th.bing.com/th/id/OIP.IGAiWBlK1pYH7_YnOl7_fQHaHj?w=108&h=108&c=1&bgcl=86ebb0&r=0&o=7&dpr=2&pid=ImgRC&rm=3" alt="Balen City" width="80"><br>
         <strong>Balen City</strong><br>
         <em>Innovation meets tradition</em>
       </td>
@@ -50,15 +50,15 @@
 
 ## ✨ Features
 
-| Feature | Description |
-|---------|-------------|
+| Feature                      | Description                                             |
+| ---------------------------- | ------------------------------------------------------- |
 | 🤖 **AI-Powered Generation** | Create websites instantly with natural language prompts |
-| 🎨 **Modern Tech Stack** | Next.js 14, TypeScript, Tailwind CSS, Prisma |
-| 🔐 **Authentication** | Secure JWT-based auth with bcrypt password hashing |
-| 📱 **Responsive Design** | Mobile-first, works beautifully on all devices |
-| 🌙 **Dark Mode** | Built-in dark/light theme support |
-| ⚡ **Real-time Preview** | See changes instantly as you build |
-| 🚀 **One-Click Deploy** | Deploy to Vercel, Netlify, or any platform |
+| 🎨 **Modern Tech Stack**     | Next.js 14, TypeScript, Tailwind CSS, Prisma            |
+| 🔐 **Authentication**        | Secure JWT-based auth with bcrypt password hashing      |
+| 📱 **Responsive Design**     | Mobile-first, works beautifully on all devices          |
+| 🌙 **Dark Mode**             | Built-in dark/light theme support                       |
+| ⚡ **Real-time Preview**     | See changes instantly as you build                      |
+| 🚀 **One-Click Deploy**      | Deploy to Vercel, Netlify, or any platform              |
 
 ---
 
@@ -84,6 +84,7 @@
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js 18+
 - pnpm / npm / yarn
 - PostgreSQL (or SQLite for development)
@@ -160,6 +161,7 @@ website-builder/
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript 5
 - **Styling**: Tailwind CSS 3
@@ -168,6 +170,7 @@ website-builder/
 - **State**: React Context + Hooks
 
 ### Backend
+
 - **Runtime**: Node.js + Express
 - **Language**: TypeScript 5
 - **Database**: Prisma ORM (PostgreSQL/SQLite)
@@ -175,6 +178,7 @@ website-builder/
 - **AI**: Custom AI service integration
 
 ### DevOps
+
 - **Package Manager**: npm
 - **Linting**: ESLint + Prettier
 - **Type Checking**: TypeScript strict mode
